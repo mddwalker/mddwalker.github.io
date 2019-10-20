@@ -1,4 +1,7 @@
-.bastards {
+
+/*Rene fucking help me with this*/
+
+.bastards{
 	display: inline-block;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 	font-size: 24px;
@@ -6,8 +9,8 @@
 	word-spacing: 4px;
 	width:500px;
 	border-radius: 100%;
-	padding: 0px 10px 0px 10px;
-	text-align: center
+	text-align: center;
+	margin: 10px;
 }
 
 .bastards:hover{
