@@ -1,5 +1,19 @@
-
 /*Rene fucking help me with this*/
+/*Rene done did it bro VVVVV*/
+@keyframes spin{
+	0% {
+        font-size: 24px;
+	    transform: rotate(360deg);
+	    transition-duration: 1s;
+	    transition-timing-function: ease-in-out;
+	}
+  100% {
+        font-size: 50px;
+        transition-duration: 1s;
+	    transition-timing-function: ease-in-out
+  }
+}
+ /* Rene note: I added the stuff above here ^^^^*/
 
 .bastards{
 	display: inline-block;
@@ -12,14 +26,11 @@
 	text-align: center;
 	margin: 10px;
 }
-
-.bastards:hover{
-	transform-origin: center center;
-	font-size: 50px;
-	-webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-	transition-duration: 1s;
-	transition-timing-function: ease-in-out;
+/* Rene Note: I added this too below VVVV*/
+.bastards:hover .spin{
+  -webkit-animation: spin 1.0s forwards; /* for less modern browsers */
+   animation: spin 1.0s forwards;
+	
 		
 
 }
